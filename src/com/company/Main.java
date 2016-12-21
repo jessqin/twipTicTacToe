@@ -4,16 +4,27 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.println("Play against a computer or player?");
         Scanner keyIn = new Scanner(System.in);
-        String cp =  keyIn.next();
+        String cp = keyIn.next();
 
         Point cPointX = new Point();
         Point cPointY = new Point();
         String player = "O";
         String comp = "X";
+
+        String board[][] = {{"___", "___", "___"},
+                {"___", "___", "___"},
+                {"___", "___", "___"}};
+
+        for (int row = 0; row < board.length; row++)
+        {
+            for (int col = 0; col < board[row].length; col++)
+            {
+                //System.out.print();
+            }
+        }
 
         if (cp.equalsIgnoreCase("computer"))
         {
