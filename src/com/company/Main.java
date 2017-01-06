@@ -24,12 +24,12 @@ public class Main {
             outerloop:
             if (cp.equalsIgnoreCase("computer"))
             {
-                System.out.println("You will be O and the computer will be X. Your turn is first.");
+                System.out.println("You will be O and the computer will be X. Your turn is first. \nThe first row is 0 and the first column is 0");
 
                 for (int i = 0; i < 9; i++)
                 {
 
-                    System.out.println("The first row is 0 and the first column is 0 \nPlease enter a point in the format of row,column");
+                    System.out.println("Please enter a point in the format of row,column");
 
                     Scanner kI = new Scanner(System.in);
                     String pChoice = kI.next();
