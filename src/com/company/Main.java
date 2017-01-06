@@ -29,7 +29,7 @@ public class Main {
                 for (int i = 0; i < 9; i++)
                 {
 
-                    System.out.println("Please enter a point");
+                    System.out.println("The first row is 0 and the first column is 0 \nPlease enter a point in the format of row,column");
 
                     Scanner kI = new Scanner(System.in);
                     String pChoice = kI.next();
